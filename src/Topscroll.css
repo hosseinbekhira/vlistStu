@@ -1,0 +1,27 @@
+.scroll-top {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: -90px;
+  right: 0px;
+  width: 35px;
+  height: 35px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background-color: #553684;
+  opacity: 0;
+  z-index: 50;
+  transition: all 0.1s ease-in;
+  cursor: pointer;
+}
+
+.scroll-top .img-top {
+  width: 25px;
+  height: 25px;
+}
+
+.scroll-top.activescroll {
+  bottom: 0px;
+  opacity: 1;
+}
