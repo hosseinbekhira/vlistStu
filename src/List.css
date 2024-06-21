@@ -126,7 +126,7 @@
 }
 .main .list-expo .cont-expo .item .cont-names .c-name .z-name {
   background-color: #D9D211;
-  color: var(--bg);
+  color: var(--pr-color);
   padding: 5px 10px;
   border-radius: 4px;
   font-weight: 800;
@@ -154,4 +154,11 @@
 }
 .main .list-expo .cont-expo .item .cont-names .link a:hover {
   background-color: #6b32c0;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px 0px 0px 0px;
+  border-top: 1px solid #5300da;
+  font-weight: bold;
 }

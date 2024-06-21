@@ -78,6 +78,7 @@ export default function Expo() {
                 ))}
             </div>
           </section>
+          <footer className="footer">جميع الحقوق محفوظة الأستاذ بخيرة الحسين © 2024</footer>
         </div>
       </main>
       <TopScroll />
